@@ -32,7 +32,9 @@ class ContainerWidget extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+          Column(
+            mainAxisAlignment: MainAxisAlignment.center, 
+            children: [
             Text(conteinerdinTexti),
             Text(conteinerdinTexti2),
             Icon(icon),
