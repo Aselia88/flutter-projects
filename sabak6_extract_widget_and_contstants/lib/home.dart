@@ -13,7 +13,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text("Componens and Constants"),
+          title: const Text("Components and Constants"),
         ),
         body: Center(
           child: Column(
