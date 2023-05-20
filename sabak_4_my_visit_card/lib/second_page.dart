@@ -18,7 +18,8 @@ class SecondPage extends StatelessWidget {
                 fontSize: 28, color: Colors.blue, fontFamily: "fonts"),
           ),
           Image.network(
-              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ0tWU27we98gMs8aCYr49HiB84F2MFXezYt_WfoWPlkcaKIYPzH_8WZM6mcAVygaRJ2o&usqp=CAU"),
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ0tWU27we98gMs8aCYr49HiB84F2MFXezYt_WfoWPlkcaKIYPzH_8WZM6mcAVygaRJ2o&usqp=CAU",
+          ),
         ]),
       ),
     );
