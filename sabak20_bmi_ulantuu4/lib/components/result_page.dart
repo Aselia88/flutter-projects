@@ -16,7 +16,7 @@ class ResultPage extends StatelessWidget {
       backgroundColor: AppColors.bgrColor,
       appBar: AppBar(
         title: const Text('Ден-соолук индекси (BMI)'),
-        actions: <Widget>[
+        actions: const <Widget>[
           Icon(
             Icons.favorite_border_rounded,
             color: AppColors.pinkColor,
