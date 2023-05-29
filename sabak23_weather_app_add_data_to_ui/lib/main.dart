@@ -138,7 +138,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           child: FittedBox(
                             child: Text(
                               pogoda.description.replaceAll(
-                                '  ',
+                                ' ',
                                 '\n',
                               ),
                               style: const TextStyle(
