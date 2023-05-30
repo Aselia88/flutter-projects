@@ -91,7 +91,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   /////////////////////////////
-  Future<void> fetchData(String? url) async {
+  Future<void> fetchData([String? url]) async {
     Dio dio = Dio();
     final response = await dio.get(
       ApiConst.weatherData(url ?? 'bishkek'),
@@ -112,7 +112,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   void initState() {
     super.initState();
-    fetchData('');
+    fetchData();
   }
 
   @override
@@ -131,7 +131,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     image: DecorationImage(
                       fit: BoxFit.cover,
                       image: AssetImage(
-                        'dgr image.jpg',
+                        'image/dgrimage.jpg',
                       ),
                     ),
                   ),
@@ -211,7 +211,7 @@ class _MyHomePageState extends State<MyHomePage> {
                               weather!.name,
                               style: const TextStyle(
                                 color: AppColors.appBgr,
-                                fontSize: 80,
+                                fontSize: 120,
                               ),
                             ),
                           ),
