@@ -34,15 +34,17 @@ class _DiceAppState extends State<DiceApp> {
       ),
       body: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
         if (firstDice == 4)
+        if (secondtDice == 2)
           Container(
             height: 40,
             width: 153,
             color: Colors.green,
-            child: const Center(
+            child:  const Center(
               child: Text(
                 'Урраа 4 саны чыкты!!!',
                 style: TextStyle(color: Colors.white),
               ),
+               
             ),
           ),
         const SizedBox(
