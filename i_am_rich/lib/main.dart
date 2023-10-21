@@ -50,14 +50,17 @@ class _IamRichState extends State<IamRich> {
             const Text(
               "I'm Rich",
               style: TextStyle(
-                fontSize: 48,
+                fontSize: 55,
                 fontFamily: "Pacifico-Regular",
               ),
             ),
-            Container(
-              width: 250,
-              height: 250,
-              ),
+            const SizedBox(
+              height: 0,
+            ),
+            const SizedBox(
+              width: 350,
+              height: 150,
+            ),
             Image.asset(
               "assets/images/brilliant.png",
             ),

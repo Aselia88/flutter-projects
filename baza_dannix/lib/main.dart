@@ -42,7 +42,7 @@ class _ForPracticeState extends State<ForPractice> {
               onPressed: a == true ? null : () {
                 AlertDialog()
               },
-              child: Text('restart'),
+              child: const Text('restart'),
             ),
           ],
         ),
